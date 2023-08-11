@@ -4,9 +4,7 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#category-home"
     ]
   },
   "menu-item#category-apparel": {
@@ -17,10 +15,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/142?map=productClusterIds",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "Coleccion pow",
+        "text": "Coleccion pow"
       }
     },
     "blocks": [
@@ -98,10 +96,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/142?map=productClusterIds",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "Collection test pow",
+        "text": "Collection test pow"
       }
     }
   },
