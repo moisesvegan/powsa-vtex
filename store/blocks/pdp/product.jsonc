@@ -60,6 +60,7 @@
     },
     "children": [
       "flex-layout.row#product-image",
+      "vtex.product-highlights@2.x:product-highlights#collection",
       "product-bookmark",
       "product-specification-badges"
     ]
@@ -91,7 +92,10 @@
         "phone": "16:9"
       },
       "displayThumbnailsArrows": true
-    }
+    },
+    "blocks":[
+      
+    ]
   },
   "flex-layout.col#right-col": {
     "props": {

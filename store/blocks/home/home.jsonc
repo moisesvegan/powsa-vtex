@@ -7,6 +7,7 @@
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#deals",
       "rich-text#shelf-title",
+      "rich-text#hello",
       "flex-layout.row#shelf",
       "info-card#home",
       "rich-text#question",
@@ -48,6 +49,12 @@
     "props": {
       "text": "## Summer",
       "blockClass": "shelfTitle"
+    }
+  },
+
+  "rich-text#hello": {
+    "props": {
+      "text": "Hello, World!"
     }
   },
   "flex-layout.row#shelf": {

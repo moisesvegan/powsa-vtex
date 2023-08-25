@@ -7,3 +7,58 @@
   top: 0;
   left: auto;
 }
+
+.stackItem{
+  /*PLP*/
+  :global(.vtex-product-highlights-2-x-productHighlightWrapper)[data-highlight-id="142"]{
+    :global(.vtex-product-highlights-2-x-productHighlightText){
+      font-size: 0;
+      padding: 0;
+      background: transparent;
+    }
+    
+    :global(.vtex-product-highlights-2-x-productHighlightText)::before{
+      content: url(https://powsa.vteximg.com.br/arquivos/discount-32px.png);
+      background-size: 50px;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      display: block;
+      width: 32px;
+      height: 32px;
+    }
+  }
+}
+
+.stackItem--product{
+
+  :global(.vtex-product-highlights-2-x-productHighlightWrapper){
+    width: calc(80% - 40px);
+    left: 23%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+  }
+
+  :global(.vtex-product-highlights-2-x-productHighlightWrapper)[data-highlight-id="142"]{
+    :global(.vtex-product-highlights-2-x-productHighlightText){
+      font-size: 0;
+      padding: 0;
+      background: transparent;
+      display: block;
+      top: 0;
+      left: 9px;
+      z-index: 50;
+      position: absolute;
+    }
+    
+    :global(.vtex-product-highlights-2-x-productHighlightText)::before{
+      content: url(https://powsa.vteximg.com.br/arquivos/discount-32px.png);
+      background-size: 50px;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      display: block;
+      width: 32px;
+      height: 32px;
+    }
+  }
+}
