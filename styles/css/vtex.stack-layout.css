@@ -17,7 +17,7 @@
       background: transparent;
     }
     
-    :global(.vtex-product-highlights-2-x-productHighlightText)::before{
+    :global(.vtex-product-highlights-2-x-productHighlightText)[data-highlight-id="142"]::before{
       content: url(https://powsa.vteximg.com.br/arquivos/discount-32px.png);
       background-size: 50px;
       background-position: 50%;
@@ -51,7 +51,7 @@
       position: absolute;
     }
     
-    :global(.vtex-product-highlights-2-x-productHighlightText)::before{
+    :global(.vtex-product-highlights-2-x-productHighlightText)[data-highlight-id="142"]::before{
       content: url(https://powsa.vteximg.com.br/arquivos/discount-32px.png);
       background-size: 50px;
       background-position: 50%;

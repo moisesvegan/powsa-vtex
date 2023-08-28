@@ -40,3 +40,16 @@
 .image {
   border-radius: 0.25rem;
 }
+
+.containerNormal{
+  max-width: 300px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 0 0 8px #ddd;
+    background-color: #fff;
+}
+
+.containerNormal:hover{
+  box-shadow: 0 0 10px #999;
+}

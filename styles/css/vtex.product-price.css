@@ -16,7 +16,6 @@
 
 .installments {
   color: #727273;
-  margin-bottom: 1rem;
 }
 
 .savings {
@@ -54,12 +53,10 @@
 }
 
 .listPrice--summary {
-  margin-bottom: 0.25rem;
   font-size: .875rem;
 }
 
 .installments--summary {
-  margin-bottom: 2rem;
   font-size: 0.875rem;
 }
 
